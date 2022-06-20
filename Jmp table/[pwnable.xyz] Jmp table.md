@@ -70,7 +70,7 @@ void *do_malloc()
 
 `size`를 입력받고, `malloc()`으로 메모리를 할당한다. 할당된 메모리의 주소를 전역 변수 `heap_buffer`에 저장한다.
 
-### 2. Free
+#### 2. Free
 
 ```c
 void do_free()
@@ -89,7 +89,7 @@ void do_free()
 
 `heap_buffer`에 있는 주소의 메모리를 할당 해제하고, `heap_buffer`에 `1`을 넣는다.
 
-### 3. Read
+#### 3. Read
 
 ```c
 int do_read()
@@ -103,7 +103,7 @@ int do_read()
 
 `heap_buffer`에 있는 주소의 메모리에 `size`만큼 입력을 받는다.
 
-### 4. Write
+#### 4. Write
 
 ```c
 int do_write()
@@ -117,7 +117,7 @@ int do_write()
 
 `heap_buffer`에 있는 주소의 메모리에 있는 값을 `size`만큼 출력한다.
 
-### 0. Exit
+#### 0. Exit
 
 ```c
 void __noreturn do_exit()
