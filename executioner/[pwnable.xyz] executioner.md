@@ -170,6 +170,7 @@ $ python3 ex.py
 [*] Closed connection to svc.pwnable.xyz port 30025
 ...
 [+] Opening connection to svc.pwnable.xyz on port 30025: Done
+b'bin\n'
 [*] Switching to interactive mode
 dev
 etc
