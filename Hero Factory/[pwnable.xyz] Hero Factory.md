@@ -8,7 +8,7 @@
 
 ## Mitigation
 
-![image-20220705111339430](C:\Users\h0meb0dy\AppData\Roaming\Typora\typora-user-images\image-20220705111339430.png)
+![image](https://user-images.githubusercontent.com/104156058/178637732-cebadf9e-9c77-4638-8162-83eda6cfdb8c.png)
 
 ## Analysis
 
