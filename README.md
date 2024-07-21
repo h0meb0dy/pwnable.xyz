@@ -8,3 +8,4 @@
 - [misalignment](./misalignment)
 - [GrownUp](./GrownUp)
 - [note](./note)
+- [xor](./xor)
