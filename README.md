@@ -7,3 +7,4 @@
 - [add](./add)
 - [misalignment](./misalignment)
 - [GrownUp](./GrownUp)
+- [note](./note)
