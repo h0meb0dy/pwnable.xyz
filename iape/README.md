@@ -28,7 +28,7 @@
 
 만약 `len`이 14 이상일 때 8바이트만 입력하면, `strncat()`이 `read_int32+64`의 주소까지 가져와서 `s`에 이어붙이게 된다. 이때 `s`를 출력하면 PIE base를 계산할 수 있다.
 
-Return address 직전까지 `0x408`바이트를 채우면 `len`이 14 이상일 때 PIE를 leak하고, 그 후에 `main()`의 return address를 `win()`의 주소로 덮어쓴 후 `main()`을 return하면 된다.
+Return address 직전까지 `0x408`바이트를 채우면서 `len`이 14 이상일 때 PIE를 leak하고, 그 후에 `main()`의 return address를 `win()`의 주소로 덮어쓴 후 `main()`을 return하면 된다.
 
 ### Full code
 
