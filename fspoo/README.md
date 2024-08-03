@@ -105,4 +105,4 @@ sla(b"> ", b"0")
 r.interactive()
 ```
 
-![image](https://github.com/user-attachments/assets/f2703474-59f4-4618-b209-4514e01a1acd)
+![image](https://github.com/user-attachments/assets/dc837861-7dd3-46c5-b15e-97f0df48c5c5)
